@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import{useState} from 'react'
 import './App.css';
+import Header from './components/Header';
+import Product from './components/Product';
+import Bascet from './components/Bascet';
+import Basketitem from './components/Basketitem';
+import mehsullar from './components/mehsullar.json'
 
-function App() {
+const App = () => {
+   
+   const [total,setTotal] = useState(0)
+   const [money,setMoney] = useState(127000000)
+   const [bascet, setBascet] = useState([])
+
+   const resetBascet = _ => {
+      setBascet([{},{},{}])
+   }
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      {/* props */}
+       <Header total={total} money={money}  />
+       <div className='container product'>
+      {mehsullar.map(mehsul=>(
+        <Product key={mehsul.id} total={total} money={money} bascet={bascet} setBascet={setBascet} product={mehsul} />
+      ))}
+       </div>
+
+
+
+
+      </>
   );
 }
 

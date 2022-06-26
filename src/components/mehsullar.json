@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Mehsul 1 ",
+        "price": 3000,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 2,
+        "title": "Mehsul 2 ",
+        "price": 4500,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 3,
+        "title": "Mehsul 3 ",
+        "price": 2500,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 4,
+        "title": " Mehsul 4",
+        "price": 1800,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 5,
+        "title": "Mehsul 5 ",
+        "price": 3200,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 6,
+        "title": " Mehsul 6",
+        "price": 5000,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 7,
+        "title": " Mehsul 7",
+        "price": 2100,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 8,
+        "title": "Mehsul 8 ",
+        "price": 8000,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 9,
+        "title": "Mehsul 9",
+        "price": 1000,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 10,
+        "title": "Mehsul 10",
+        "price": 5500,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 11,
+        "title": "Mehsul 11",
+        "price": 4000,
+        "image": "https://source.unsplash.com/random"
+    },
+    {
+        "id": 12,
+        "title": "Mehsul 12",
+        "price": 3000,
+        "image": "https://source.unsplash.com/random"
+    }
+]
